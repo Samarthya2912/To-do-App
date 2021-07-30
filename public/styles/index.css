@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+nav{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gowun Dodum', sans-serif;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    color: #ffff;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.list{
+    min-height: 80vh;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 1px red; */
+}
+
+form.new-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+}
+
+.new-item button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.list ul li{
+    list-style-type: decimal;
+    padding: 10px;
+    /* border: solid black 1px;  */
+}
+
+.list h2{
+    color: rgb(6, 6, 88);
+}
+
+.list ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30vw;
+    color: rgb(6, 6, 88);
+}
+
+.list ul li form button{
+    background: none;
+    color: rgb(126, 5, 5);
+    cursor: pointer;
+    border: none;
+    font-size: large;
+}
+
+.new-item input{
+    height: 4vh;
+    padding: 2.5px 10px;
+    border: none;
+    background: #00c8ffe3;
+    width: 25vw;
+}
+
+.new-item input:focus{
+    outline: none;
+}
+
+.bi.bi-plus-circle-fill{
+    font-size: xx-large;
+    color: #6439fd;
+}
+
+.bi.bi-plus-circle-fill:hover{
+    font-size: xx-large;
+    color: #583cbb;
+}
+
+footer{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    align-items: center;
+}
