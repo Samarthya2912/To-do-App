@@ -34,13 +34,13 @@ form.new-item{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30vw;
 }
 
 .new-item button{
     background: transparent;
     border: none;
     cursor: pointer;
+    padding: 0;
 }
 
 .list ul li{
@@ -51,6 +51,7 @@ form.new-item{
 
 .list h2{
     color: rgb(6, 6, 88);
+    display: inline-block;
 }
 
 .list ul li{
@@ -63,7 +64,7 @@ form.new-item{
 
 .list ul li form button{
     background: none;
-    color: rgb(126, 5, 5);
+    color: green;
     cursor: pointer;
     border: none;
     font-size: large;
@@ -73,8 +74,11 @@ form.new-item{
     height: 4vh;
     padding: 2.5px 10px;
     border: none;
-    background: #00c8ffe3;
-    width: 25vw;
+    background: linear-gradient(90deg, #92FE9D 0%, #00C9FF 100%);
+    width: 30vw;
+    margin: 2vw;
+    height: 5vh;
+    border-radius: 5vh;
 }
 
 .new-item input:focus{
